@@ -10,7 +10,6 @@ function adicionar(item){
     console.log("=======================")
 }
 function remover(item){
-    
     let index = listaDeCompras.indexOf(item)
     let verificador = listaDeCompras.includes(item)
     if(verificador == true){
@@ -40,7 +39,6 @@ do{
 
     switch(opcao){
         case 0:
-            
             let item = prompt("Digite o item que deseja adicionar: ")
             adicionar(item)
             break    
